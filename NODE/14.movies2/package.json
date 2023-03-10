@@ -1,0 +1,33 @@
+{
+  "name": "14.movies2",
+  "version": "1.0.0",
+  "description": "Movies Apirest made w/ Express & Mongo",
+  "main": "./src/index.js",
+  "scripts": {
+    "start": "node ./src/index.js",
+    "dev": "nodemon ./src/index.js",
+    "lint": "eslint ./src",
+    "lint:fix": "eslint --fix ./src",
+    "format": "prettier --check --ignore-path .gitignore ./src",
+    "format:fix": "prettier --write --ignore-path .gitignore ./src"
+  },
+  "keywords": [ "movies",
+  "express",
+  "mongo",
+  "javascript"],
+  "author": "Sebastian Riballo",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mongoose": "^7.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.35.0",
+    "eslint-config-prettier": "^8.6.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "nodemon": "^2.0.20",
+    "prettier": "^2.8.4"
+  }
+}

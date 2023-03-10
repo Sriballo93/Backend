@@ -1,0 +1,12 @@
+{
+  "name": "02.server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "node": "node.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
