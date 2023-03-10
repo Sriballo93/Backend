@@ -4,9 +4,6 @@ dotenv.config();
 
 const mongoose = require("mongoose");
 
-const example =
-  "mongodb+srv://sriballo93:123Minineed.@cluster0.gm3tzzy.mongodb.net/moviesDB?retryWrites=true&w=majority";
-
 const mongoDb = process.env.MONGO_DB;
 
 const connect = async () => {
